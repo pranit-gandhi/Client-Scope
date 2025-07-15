@@ -1,0 +1,16 @@
+:root {
+  --pwc-yellow: #ffb600;
+  --pwc-red: #e0301e;
+  --pwc-orange: #d04a02;
+  --pwc-tangerine: #eb8c00;
+  --pwc-dark-grey: #2d2d2d;
+  --pwc-medium-grey: #464646;
+  --pwc-light-grey: #dedede;
+  --pwc-rose: #db536a;
+  --pwc-black: #000000;
+}
+
+body {
+  color: white;
+  background: black;
+}
