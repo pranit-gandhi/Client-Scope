@@ -1,6 +1,6 @@
 # ClientScope - **PwC Hackathon Winner Project**
 
-![Landing Page](assets/landing.png) — Welcome screen introducing ClientScope and inviting users to start.
+![Landing Page](assets/landing.png)
 
 ---
 
@@ -24,6 +24,8 @@ ClientScope is an AI-powered platform that streamlines this entire workflow:
 
 In essence, ClientScope is a combination of document storage, AI summarization, and consulting workflows into one platform.
 
+![Dashboard](assets/dashboard.png)
+
 ---
 
 ## Features
@@ -38,6 +40,7 @@ In essence, ClientScope is a combination of document storage, AI summarization, 
 | Metrics Dashboard                    | Key performance metrics such as revenue generated, industries covered                               |
 | Secure Storage                       | Supabase Storage for file hosting, with public or private URLs                                      |
 | Beautiful UI                         | Chakra UI-based design for modern, clean interfaces                                                 |
+![Client List](assets/clients.png)
 
 ---
 
@@ -58,6 +61,9 @@ In essence, ClientScope is a combination of document storage, AI summarization, 
 - **Enables scaling** without proportional increases in headcount.
 - **Centralizes knowledge** into a single platform for collaboration and transparency.
 
+![Client Dashboard 1](assets/client-dashboard.png)
+![Client Dashboard 2](assets/client-dashboard-2.png)
+
 ---
 
 ## Future Potential
@@ -70,6 +76,8 @@ We envision expanding ClientScope into a full consulting suite with capabilities
 - **Custom analytics dashboards** for individual consultants
 - **Approval workflows and audit trails**
 - API integrations with Salesforce, Slack, and other productivity tools
+
+![Create Client Base](assets/create-client-base.png)
 
 ---
 
