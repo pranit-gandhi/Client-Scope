@@ -1,5 +1,7 @@
 # ClientScope - **PwC Hackathon Winner Project**
 
+![Landing Page](assets/landing.png) — Welcome screen introducing ClientScope and inviting users to start.
+
 ---
 
 ## What Problem was Solved
