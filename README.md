@@ -1,6 +1,4 @@
-# ClientScope
-
-**PwC Hackathon Winner Project**
+# ClientScope - **PwC Hackathon Winner Project**
 
 ---
 
