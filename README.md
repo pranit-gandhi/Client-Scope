@@ -20,7 +20,7 @@ ClientScope is an AI-powered platform that streamlines this entire workflow:
 - Files are stored securely in **Supabase Storage**, and structured metadata is saved in a Supabase database.
 - Users can manage their knowledge base, track approval status, and view key metrics in a unified dashboard.
 
-In essence, we combine document storage, AI summarization, and consulting workflows into one platform.
+In essence, ClientScope is a combination of document storage, AI summarization, and consulting workflows into one platform.
 
 ---
 
