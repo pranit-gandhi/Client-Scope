@@ -1,36 +1,24 @@
 # ClientScope
 
-## An AI-powered Client Evaluation and Screening Platform
+## What Problem We’re Solving
 
----
+Consulting and due diligence teams spend countless hours reviewing client documents—pitch decks, RFPs, company profiles—and manually extracting structured insights to evaluate viability, financial metrics, and business details. This process is slow, inconsistent, and highly resource-intensive.
 
-## Use Case
+## Our Idea
 
-ClientScope helps consultancies and professional services firms to **systematically track, evaluate, and manage potential clients**.
+ClientScope is an AI-powered platform that streamlines this entire workflow:
 
-When a company receives inbound requests or proactively targets new clients, ClientScope provides a single dashboard to:
+- Users can **upload multiple client documents** (PDFs, DOCX) through a simple drag-and-drop interface.
+- The backend uses **OpenAI GPT-4** to automatically extract:
+  - Concise summaries
+  - Detailed structured information (industry, revenue, business model, SWOT analysis, KPIs, etc.)
+  - Viability recommendations
+- Files are stored securely in **Supabase Storage** and metadata (JSON summaries) is saved to a Supabase database.
+- Users can manage their knowledge base of clients, track approval status, and view key performance metrics in a unified dashboard.
 
-- Store client profiles
-- Record screening decisions (Approved, Under Review, Declined)
-- Analyze industry distribution of leads
-- Monitor potential revenue pipeline
-- Maintain transparency and consistency in evaluation
+In essence, we combine document storage, AI summarization, and consulting workflows into one platform.
 
----
-
-## Why
-
-Traditional client onboarding often happens in spreadsheets and scattered documents, making it difficult to maintain a consistent process. ClientScope solves this by:
-
-- Centralizing client data
-- Providing real-time status tracking
-- Generating analytics on industries and revenue
-- Ensuring standardized evaluation criteria
-- Laying the foundation for compliance and due diligence
-
----
-
-## Technologies Used
+## Tech Stack
 
 - **Frontend:**
 
@@ -45,57 +33,13 @@ Traditional client onboarding often happens in spreadsheets and scattered docume
   - OpenAI GPT-4 API
   - Supabase (storage and metadata database)
 
-**Other Tools**
+## Impact of the Solution
 
-- Docker — Containerization
-- OpenAI API — AI-based scoring or insights (planned)
-- Supabase (optional) — Authentication or database
+ClientScope:
 
----
+- **Reduces review time** per client profile from hours to minutes.
+- **Improves consistency** and quality of insights extracted.
+- Enables consulting teams to **scale up** their capacity without proportionally increasing headcount.
+- Provides a **centralized dashboard** to track clients, document statuses, and decision metrics, enhancing collaboration and transparency.
 
-## Future Possibilities & Integrations
-
-ClientScope is designed to evolve. Possible future enhancements include:
-
-- Integration with CRM tools (Salesforce, HubSpot)
-- AI-powered lead scoring and risk assessment
-- Automated due diligence workflows
-- Google Drive / Dropbox file ingestion for RFPs
-- Email parsing for inbound requests
-- Role-based access control and audit logs
-- Slack notifications on client status changes
-
----
-
-## Installation
-
-### Prerequisites
-
-- Node.js >= 18.x
-- npm or yarn
-- PostgreSQL instance (or Supabase)
-- Docker (optional)
-
-### Steps
-
-1. Clone the repository by running `git clone https://github.com/your-org/ClientScope.git` and change into the project directory.
-2. Navigate to the `server` folder and install backend dependencies using `npm install`.
-3. Navigate to the `client` folder and install frontend dependencies using `npm install`.
-4. In the `server` folder, create a `.env` file and set environment variables such as:
-
-   - `OPENAI_KEY=your-key`
-   - `(OPTIONAL) SUPABASE_PROJ_PASS=your-project-password`
-   - `SUPABASE_KEY=your-anon`
-   - `SUPABASE_URL=your-url`
-
-5. Start the backend server by running `node index.js` inside the `server` folder.
-6. In a new terminal, navigate to the `client` folder and start the frontend with `npm start`.
-7. Open your browser and visit [http://localhost:3000](http://localhost:3000).
-
----
-
-## Contact
-
-Pranit Singh Gandhi
-
-For issues, feature requests, or contributions, please open an issue or submit a pull request on GitHub.
+In the long run, this solution empowers firms to serve more clients, deliver faster turnarounds, and focus human expertise where it matters most.
