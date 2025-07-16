@@ -2,7 +2,7 @@
 
 ---
 
-## What Problem I tried Solving
+## What Problem was Solved
 
 Consulting and due diligence teams spend countless hours reviewing client documents—pitch decks, RFPs, company profiles—and manually extracting structured insights to evaluate viability, financial metrics, and business details. This process is slow, inconsistent, and highly resource-intensive.
 
