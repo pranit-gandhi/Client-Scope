@@ -40,6 +40,7 @@ In essence, ClientScope is a combination of document storage, AI summarization, 
 | Metrics Dashboard                    | Key performance metrics such as revenue generated, industries covered                               |
 | Secure Storage                       | Supabase Storage for file hosting, with public or private URLs                                      |
 | Beautiful UI                         | Chakra UI-based design for modern, clean interfaces                                                 |
+
 ![Client List](assets/clients.png)
 
 ---
