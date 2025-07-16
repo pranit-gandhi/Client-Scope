@@ -4,7 +4,7 @@
 
 Consulting and due diligence teams spend countless hours reviewing client documents—pitch decks, RFPs, company profiles—and manually extracting structured insights to evaluate viability, financial metrics, and business details. This process is slow, inconsistent, and highly resource-intensive.
 
-## Our Idea
+## The Idea
 
 ClientScope is an AI-powered platform that streamlines this entire workflow:
 
