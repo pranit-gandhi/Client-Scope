@@ -32,17 +32,18 @@ Traditional client onboarding often happens in spreadsheets and scattered docume
 
 ## Technologies Used
 
-**Frontend**
+- **Frontend:**
 
-- React (JavaScript) — UI rendering
-- Chakra UI — Component styling
-- React Router — Navigation
+  - React + Vite
+  - Chakra UI (for modern UI components)
+  - Axios (API calls)
 
-**Backend**
-
-- Express.js — REST API server (or FastAPI if preferred)
-- Node.js — Runtime
-- PostgreSQL — Relational database
+- **Backend:**
+  - Node.js + Express
+  - Multer (file uploads)
+  - pdf-parse & mammoth (text extraction)
+  - OpenAI GPT-4 API
+  - Supabase (storage and metadata database)
 
 **Other Tools**
 
