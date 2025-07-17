@@ -95,3 +95,8 @@ We envision expanding ClientScope into a full consulting suite with capabilities
 ## Contact
 
 Pranit Singh Gandhi: [LinkedIn](https://www.linkedin.com/in/pranit-gandhi/)
+
+## License
+
+This project is licensed under [custom terms](./LICENSE).  
+© 2025 Pranit Singh Gandhi. All rights reserved.
